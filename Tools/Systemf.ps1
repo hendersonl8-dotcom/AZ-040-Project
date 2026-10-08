@@ -28,3 +28,5 @@ $info = [PSCustomObject]@{
 }
 $info | Format-Table -AutoSize
 get-member -InputObject $info
+
+Write-Output $info
